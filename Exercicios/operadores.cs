@@ -1,5 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-int var1 = 10;
+using System;
+namespace Programming
+{
+    class Program4
+    {
+        public static void Main(string[] args)
+        {
+            int var1 = 10;
             int var2 = 20;
             int var3 = 30;
 
@@ -15,3 +21,6 @@ int var1 = 10;
 
             Console.WriteLine(var1);
             Console.WriteLine(var3);
+        }
+    }
+}
